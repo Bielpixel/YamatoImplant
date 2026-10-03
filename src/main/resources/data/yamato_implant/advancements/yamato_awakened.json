@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:adventure/root",
+  "display": {
+    "icon": {
+      "item": "invincible_dmc:yamato_dmc5"
+    },
+    "title": {
+      "translate": "advancements.yamato_implant.yamato_awakened.title"
+    },
+    "description": {
+      "translate": "advancements.yamato_implant.yamato_awakened.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "obtain_yamato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "invincible_dmc:yamato_dmc5"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

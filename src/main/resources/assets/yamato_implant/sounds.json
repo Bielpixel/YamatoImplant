@@ -1,0 +1,10 @@
+{
+  "yamato_awakened": {
+    "sounds": [
+      {
+        "name": "yamato_implant:bury_the_light",
+        "stream": true
+      }
+    ]
+  }
+}
